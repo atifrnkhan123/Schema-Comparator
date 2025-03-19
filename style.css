@@ -65,7 +65,7 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.editor-container {
+/* .editor-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -79,11 +79,40 @@ h1 {
     padding: 1.5rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+} */
+.editor-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-rows: auto;
+    gap: 2rem;
+    margin-bottom: 2rem;
 }
 
+.schema-box {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
 .schema-box:hover {
     transform: translateY(-5px);
 }
+
+/* Make the .results div span both columns */
+.results {
+    grid-column: 1 / -1; /* Spans both columns */
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+
+
 
 textarea {
     width: calc(100% - 24px);
@@ -104,11 +133,18 @@ textarea {
     border-color: var(--secondary);
 }
 
+.pretty-btn{
+    background: #070792;
+    color: #fff;
+    padding: 8px 16px;
+    gap: 0;
+}
 .button-group {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1rem;
     margin: 2rem 0;
+    align-items: flex-start;
 }
 
 button {
@@ -143,14 +179,6 @@ button {
     transform: translateY(-2px) scale(1.02); /* Match scale */
 }
 
-.results {
-    background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(10px);
-    border-radius: 1rem;
-    padding: 2rem;
-    margin: 2rem 0;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
-}
 
 .summary-grid {
     display: grid;
@@ -736,3 +764,8 @@ body.dark-mode .feedback-link a:hover {
                     opacity 0.2s ease !important;
         min-height: 48px; /* Fixed height */
     }
+.develoer-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
