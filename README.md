@@ -43,7 +43,6 @@ Schema Comparator provides an intuitive and user-friendly interface to analyze a
 6. 📥 **Download** results or generated schemas as needed.  
 
 ## 📊 Example 
-✅ Actual Response
 ### ✅ Actual Response  
 ```json
 [
@@ -77,7 +76,7 @@ Schema Comparator provides an intuitive and user-friendly interface to analyze a
     ]
   }
 ]
-🎯 Expected Response
+### ✅ Expected Response  
 [
   {
     "name": "Order_Type",
