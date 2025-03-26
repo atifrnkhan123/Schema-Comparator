@@ -6,44 +6,65 @@ Schema Comparator provides an intuitive and user-friendly interface to analyze a
 
 🚀 Features
 🔄 JSON to Schema Conversion: Automatically converts JSON input into schema definitions.
+
 🔎 Schema Comparison: Compares actual vs expected schemas efficiently.
+
 📊 Value Comparison: Optionally compares field values for added accuracy.
+
 📚 Detailed Results: Displays differences in a structured, easy-to-read table format.
+
 📥 Export Options: Download results in JSON, CSV, or PDF formats.
+
 🎨 Pretty Print: Beautify JSON input with a single click.
+
 🌗 Dark/Light Mode: Switch between light and dark themes.
+
 📱 Responsive Design: Works seamlessly on both desktop and mobile devices.
 
 🛠️ Problem It Solves
 ✅ API Validation: Ensures API responses match expected schemas.
+
 🕵️‍♂️ Debugging: Quickly identifies structural and value mismatches.
+
 📖 Documentation: Helps maintain accurate API documentation.
+
 🧪 Testing: Enhances API testing and quality assurance workflows.
 
 🧩 Issues Resolved
 🔍 Structural Differences: Detects missing fields, extra fields, and type mismatches.
+
 🔡 Case Sensitivity: Identifies case mismatches in field names.
+
 📉 Value Discrepancies: Optional value comparison for primitive types.
+
 ⏱️ Time Consumption: Automates manual schema comparison processes.
+
 📄 Documentation Gaps: Generates downloadable schema definitions to fill documentation gaps.
 
 🚦 Getting Started
-
 ⚙️ Prerequisites
 🌐 Modern web browser
+
 ✅ No additional installations required
 
 📚 Usage
 📋 Paste your actual JSON response in the "Actual Response" textarea.
+
 📝 Paste your expected JSON in the "Expected Schema" textarea.
+
 🎨 Click "Pretty Print" to format JSON (optional).
+
 🔎 Check "Compare Values" if you want to compare field values.
+
 🔥 Click "Compare Schemas" to view results.
+
 📥 Download results or generated schemas as needed.
 
-Example:
-
-// Actual Response
+📊 Example
+✅ Actual Response
+json
+Copy
+Edit
 [
   {
     "name": "User_Status",
@@ -75,7 +96,10 @@ Example:
     ]
   }
 ]
-Expected:
+🎯 Expected Response
+json
+Copy
+Edit
 [
   {
     "name": "Order_Type",
@@ -115,20 +139,17 @@ Expected:
     ]
   }
 ]
-
-
-// Expected Schema
-{
-    "id": 1,
-    "Name": "Example",
-    "extra": "field"
-}
-
-
 📧 Contact & Support
 For any queries or feature requests, feel free to reach out at 📩 atifrnkhan@gmail.com.
 
 Happy Comparing! 🎉
+
+
+
+
+
+
+
 
 
 ScreenShot:
