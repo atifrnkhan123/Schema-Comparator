@@ -127,10 +127,15 @@ For any queries or feature requests, feel free to reach out at 📩 **atifrnkhan
 
 **Happy Comparing!** 🎉  
 
+## 📧 Contact & Support  
+For any queries or feature requests, feel free to reach out at 📩 **atifrnkhan@gmail.com**.  
+
+**Happy Comparing!** 🎉  
+
 ## 📸 Screenshots  
 
 ### 📍 Input Example  
-![Screenshot](https://github.com/user-attachments/assets/c634c2c5-0390-4549-b562-8b6618fd27b2)  
+![Input Example](https://github.com/user-attachments/assets/c634c2c5-0390-4549-b562-8b6618fd27b2)  
 
 ### 📍 Comparison Result  
 ![Comparison Result](https://github.com/user-attachments/assets/8b207cae-8e6a-42ea-b265-8ea0c1d5175d)  
