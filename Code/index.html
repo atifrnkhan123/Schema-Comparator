@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Schema Comparator</title>
+    <link rel="icon" type="image/png" href="Schemalogo.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -30,22 +31,29 @@
     </div>
 </label>
 <div class="container">
-    <h1><i class="fas fa-balance-scale"></i> Schema Comparator</h1>
+    <h1>
+        <i class="fas fa-balance-scale"></i> Schema Comparator</h1>
     <div class="editor-container">
         <div class="schema-box">
             <h2><i class="fas fa-code"></i> Actual Response</h2>
-            <textarea id="actual" placeholder="Paste actual JSON here..."></textarea>
+            <textarea id="actual"
+                      placeholder="Paste your Actual JSON here...&#10;Example:&#10;{&#10;&nbsp;&nbsp;&nbsp;&nbsp;&quot;id&quot;: 1,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&quot;name&quot;: &quot;Example&quot;&#10;}"></textarea>
             <button class="pretty-btn" onclick="prettyPrint('actual')">
                 <i class="fas fa-pretty-print"></i> Pretty Print
             </button>
-            <div id="actualDownload" class="download-container"></div>
-        </div>
+            <p>Note*:Paste your Actual API JSON response here. It will auto-convert to a schema definition when you
+                click "Compare Schema" button. A download button will appear for the generated schema.
+            </p></div>
         <div class="schema-box">
             <h2><i class="fas fa-file-code"></i> Expected Schema</h2>
-            <textarea id="expected" placeholder="Paste expected schema here..."></textarea>
+            <textarea id="expected"
+                      placeholder="Paste your Expected API JSON here...&#10;Example:&#10;{&#10;&nbsp;&nbsp;&nbsp;&nbsp;&quot;id&quot;: 1,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&quot;name&quot;: &quot;Example&quot;&#10;}"></textarea>
             <button class="pretty-btn" onclick="prettyPrint('expected')">
                 <i class="fas fa-pretty-print"></i> Pretty Print
             </button>
+            <p>Note*:Paste your Expected API JSON response here. It will auto-convert to a schema definition when you
+                click "Compare Schema" button. A download button will appear for the generated schema.
+
             <div id="expectedDownload" class="download-container"></div>
         </div>
 
@@ -88,25 +96,25 @@
             </div>
         </div>
 
-           <!-- After -->
-           </div>
-                       <footer class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-4 mt-8 border-t border-gray-200">
-                           <div class="flex justify-between items-center">
-                             <div class="developer-credit">
-                               Developed By: Mohammad Atif Khan
-                               <a href="https://www.linkedin.com/in/mohammad-atif-khan/" target="_blank" class="linkedin-link">
-                                 <i class="fab fa-linkedin"></i>
-                               </a>
-                             </div>
-                             <div class="feedback-link" style="position: absolute; right: 20px; bottom: 20px;">
-                               <a href="https://forms.gle/your-google-form-url" target="_blank"
-                                  class="inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
-                                 <i class="fas fa-comment-alt mr-2"></i> Feedback
-                               </a>
-                             </div>
-                           </div>
-                       </footer>
+        <!-- After -->
+    </div>
+    <footer class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-4 mt-8 border-t border-gray-200">
+        <div class="flex justify-between items-center">
+            <div class="developer-credit">
+                Developed By: Mohammad Atif Khan
+                <a href="https://www.linkedin.com/in/mohammad-atif-khan/" target="_blank" class="linkedin-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="feedback-link" style="position: absolute; right: 20px; bottom: 20px;">
+                <a href="https://forms.gle/Lt5ru3zeLgLoGfAF8" target="_blank"
+                   class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                    <i class="fas fa-comment-alt mr-2"></i> Feedback
+                </a>
+            </div>
+        </div>
+    </footer>
 
-               <script src="script.js"></script>
-           </body>
-           </html>
+    <script src="script.js"></script>
+</body>
+</html>
