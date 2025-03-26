@@ -6,19 +6,12 @@ Schema Comparator provides an intuitive and user-friendly interface to analyze a
 
 🚀 Features
 🔄 JSON to Schema Conversion: Automatically converts JSON input into schema definitions.
-
 🔎 Schema Comparison: Compares actual vs expected schemas efficiently.
-
 📊 Value Comparison: Optionally compares field values for added accuracy.
-
 📚 Detailed Results: Displays differences in a structured, easy-to-read table format.
-
 📥 Export Options: Download results in JSON, CSV, or PDF formats.
-
 🎨 Pretty Print: Beautify JSON input with a single click.
-
 🌗 Dark/Light Mode: Switch between light and dark themes.
-
 📱 Responsive Design: Works seamlessly on both desktop and mobile devices.
 
 🛠️ Problem It Solves
