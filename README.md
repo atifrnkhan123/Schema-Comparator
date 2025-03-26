@@ -4,8 +4,9 @@ Schema Comparator is a web-based tool designed to effortlessly compare JSON sche
 🎯 Introduction
 Schema Comparator provides an intuitive and user-friendly interface to analyze and compare JSON schemas or API responses. It automatically converts JSON data into schema definitions and highlights differences in structure, types, and optionally, values.
 
-## 🚀 Features  
+# ⚡️ Schema Comparator  
 
+## 🚀 Features  
 - 🔄 **JSON to Schema Conversion**: Automatically converts JSON input into schema definitions.  
 - 🔎 **Schema Comparison**: Compares actual vs expected schemas efficiently.  
 - 📊 **Value Comparison**: Optionally compares field values for added accuracy.  
@@ -13,7 +14,7 @@ Schema Comparator provides an intuitive and user-friendly interface to analyze a
 - 📥 **Export Options**: Download results in JSON, CSV, or PDF formats.  
 - 🎨 **Pretty Print**: Beautify JSON input with a single click.  
 - 🌗 **Dark/Light Mode**: Switch between light and dark themes.  
-- 📱 **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+- 📱 **Responsive Design**: Works seamlessly on both desktop and mobile devices.  
 
 ## 🛠️ Problem It Solves  
 - ✅ **API Validation**: Ensures API responses match expected schemas.  
@@ -42,7 +43,8 @@ Schema Comparator provides an intuitive and user-friendly interface to analyze a
 5. 🔥 **Click "Compare Schemas"** to view results.  
 6. 📥 **Download** results or generated schemas as needed.  
 
-## 📊 Example 
+## 📊 Example  
+
 ### ✅ Actual Response  
 ```json
 [
@@ -76,61 +78,5 @@ Schema Comparator provides an intuitive and user-friendly interface to analyze a
     ]
   }
 ]
-### ✅ Expected Response  
-[
-  {
-    "name": "Order_Type",
-    "data": [
-      {
-        "listName": "Order_Type",
-        "sortOrder": 1,
-        "translationKey": "Order_Type.Regular",
-        "value": "Regular",
-        "text": "Regular Order",
-        "isDeprecated": false
-      },
-      {
-        "listName": "Order_Type",
-        "sortOrder": 2,
-        "translationKey": "Order_Type.Express",
-        "value": "Express",
-        "text": "Express Delivery",
-        "isDeprecated": false
-      },
-      {
-        "listName": "Order_Type",
-        "sortOrder": 3,
-        "translationKey": "Order_Type.Scheduled",
-        "value": "Scheduled",
-        "text": "Scheduled Delivery",
-        "isDeprecated": true
-      },
-      {
-        "listName": "Order_Type",
-        "sortOrder": 4,
-        "translationKey": "Order_Type.Gift",
-        "value": "Gift",
-        "text": "Gift Package",
-        "isDeprecated": false
-      }
-    ]
-  }
-]
-📧 Contact & Support
-For any queries or feature requests, feel free to reach out at 📩 atifrnkhan@gmail.com.
 
-Happy Comparing! 🎉
-
-
-
-
-
-
-
-
-
-ScreenShot:
-![image](https://github.com/user-attachments/assets/c634c2c5-0390-4549-b562-8b6618fd27b2)
-Comparison Result will be:
-![image](https://github.com/user-attachments/assets/8b207cae-8e6a-42ea-b265-8ea0c1d5175d)
 
