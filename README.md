@@ -122,20 +122,15 @@ Schema Comparator provides an intuitive and user-friendly interface to analyze a
     ]
   }
 ]
-📧 Contact & Support
-For any queries or feature requests, feel free to reach out at 📩 atifrnkhan@gmail.com.
+## 📧 Contact & Support  
+For any queries or feature requests, feel free to reach out at 📩 **atifrnkhan@gmail.com**.  
 
-Happy Comparing! 🎉
+**Happy Comparing!** 🎉  
 
+## 📸 Screenshots  
 
+### 📍 Input Example  
+![Screenshot](https://github.com/user-attachments/assets/c634c2c5-0390-4549-b562-8b6618fd27b2)  
 
-
-
-
-
-
-
-ScreenShot:
-![image](https://github.com/user-attachments/assets/c634c2c5-0390-4549-b562-8b6618fd27b2)
-Comparison Result will be:
-![image](https://github.com/user-attachments/assets/8b207cae-8e6a-42ea-b265-8ea0c1d5175d)
+### 📍 Comparison Result  
+![Comparison Result](https://github.com/user-attachments/assets/8b207cae-8e6a-42ea-b265-8ea0c1d5175d)  
