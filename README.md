@@ -127,11 +127,6 @@ For any queries or feature requests, feel free to reach out at 📩 **atifrnkhan
 
 **Happy Comparing!** 🎉  
 
-## 📧 Contact & Support  
-For any queries or feature requests, feel free to reach out at 📩 **atifrnkhan@gmail.com**.  
-
-**Happy Comparing!** 🎉  
-
 ## 📸 Screenshots  
 
 ### 📍 Input Example  
