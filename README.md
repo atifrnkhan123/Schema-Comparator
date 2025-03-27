@@ -1,11 +1,8 @@
 ⚡️ Schema Comparator
 Schema Comparator is a web-based tool designed to effortlessly compare JSON schemas and API responses, helping developers identify discrepancies between expected and actual data structures with precision.
 
-🎯 Introduction
-Schema Comparator provides an intuitive and user-friendly interface to analyze and compare JSON schemas or API responses. It automatically converts JSON data into schema definitions and highlights differences in structure, types, and optionally, values.
+![image](https://github.com/user-attachments/assets/f949a4d1-d852-44f4-9361-f02f227cbe99)
 
-⚡️ Schema Comparator
-Schema Comparator is a web-based tool designed to effortlessly compare JSON schemas and API responses, helping developers identify discrepancies between expected and actual data structures with precision.
 
 🎯 Introduction
 Schema Comparator provides an intuitive and user-friendly interface to analyze and compare JSON schemas or API responses. It automatically converts JSON data into schema definitions and highlights differences in structure, types, and optionally, values.
